@@ -2,11 +2,7 @@
 
 ## Overview
 
-The functions here were written to download data from FitBit servers using the FitBit API. I used [fitbitr](https://github.com/teramonagi/fitbitr) from [Nagi Teramo](https://github.com/teramonagi), and I have a "registered" FitBit App, which is necessary to get the "key" and "secret" for using Oauth2.0
-
-## Installation
-
-Uh, I don't know...Download the .R files and good luck?
+The functions here were written to download data from FitBit servers using the FitBit API. I used [fitbitr](https://github.com/teramonagi/fitbitr) from [Nagi Teramo](https://github.com/teramonagi), and I have a "registered" FitBit App, which is necessary to get the `key` and `secret` for using Oauth2.0
 
 ## Usage
 
@@ -14,7 +10,7 @@ Uh, I don't know...Download the .R files and good luck?
 
 This is the part that is based on fitbitr.
 
-Right now, you will need to enter your own FitBit OAuth "Key" and "Secret" into the FitBit_AuthCode.R file.  I hope to somehow make it more elegant so maybe it prompts you for your codes, but that seems like it might be more annoying, since every time you use this you would need to enter that information.
+Right now, you will need to enter your own FitBit OAuth `Key` and `Secret` into the FitBit_AuthCode.R file.  I hope to somehow make it more elegant so maybe it prompts you for your codes, but that seems like it might be more annoying, since every time you use this you would need to enter that information.
 
 Additionally, this requires you be logged into the proper FitBit user account with your browser when you run the code. I couldn't figure out how to manage that kind of a login from R.
 
